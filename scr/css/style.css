@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box; 
+}
+html{
+    font-size: 16px; /* tamanho da fonte */ 
+}
+body{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/*Menu topo*/
+
+.nav-link {
+    color: darkcyan;
+}
+
+
+/*Cards*/
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    color: #1f7779;
+    margin-bottom: .3rem;
+    font-weight: 700;
+}
+
+.card-link {
+    color: #1f7779;
+    margin-bottom: .3rem;
+    font-weight: 500; 
+    font-size: 18px;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #1f7779;
+    font-weight: 100;
+}
+
+
+/* Formulario*/
+
+.banner__orcamento {
+    background: url(../assets/bannerbenca.jpg)  center no-repeat;
+    background-size: cover;
+    height: 90vh;
+    text-align: center;
+    padding-top: 12rem;
+    color: white;
+    margin-top: 2.5rem;
+}
+
+.orcamento__titulo {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.orcamento__subtitulo {
+    font-weight: 100;
+    font-size: 0.9em;
+}
+
+.form-group {
+    font-family: montserrat;
+    font-weight: 500;
+    color: #0b9799;
+}
+
+.btn-info {
+    font-family: montserrat;
+    font-weight: 100;
+}
+
+.modal-title {
+    color: #0b9799;
+}
+
+
+/*Footer*/
+
+.nav {
+    background-color: #0b9799;
+    padding: 1.5rem;
+ }
+
+ .nav-link-footer {
+    color:rgb(255, 255, 255);
+    font-weight: 100;
+    padding: 1rem;
+ }
+ .copyright__texto {
+    color:#0b9799;
+    text-align: center;
+    font-weight: 100;
+    padding: 0.8rem;
+    font-size: 12px;
+}
